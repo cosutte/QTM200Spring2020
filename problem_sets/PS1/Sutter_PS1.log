@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  29 JAN 2020 09:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  1 FEB 2020 14:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**PS01.tex
-(./PS01.tex
+**Sutter_PS1.tex
+(./Sutter_PS1.tex
 LaTeX2e <2018-12-01>
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
@@ -936,8 +936,8 @@ File: listings.cfg 2019/02/27 1.8b listings configuration
 Package: listings 2019/02/27 1.8b (Carsten Heinz)
 \c@hyp=\count163
 
-(./PS01.aux)
-\openout1 = `PS01.aux'.
+No file Sutter_PS1.aux.
+\openout1 = `Sutter_PS1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
 LaTeX Font Info:    ... okay on input line 67.
@@ -953,7 +953,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
 LaTeX Font Info:    ... okay on input line 67.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 67.
- (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 67.
@@ -1015,15 +1015,64 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 67.
 LaTeX Info: Redefining \pageref on input line 67.
 LaTeX Info: Redefining \nameref on input line 67.
-
-(./PS01.out) (./PS01.out)
 \@outlinefile=\write7
-\openout7 = `PS01.out'.
+\openout7 = `Sutter_PS1.out'.
 
- ABD: EveryShipout initializing macros
+
+ABD: EveryShipout initializing macros
 \c@lstlisting=\count171
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 68.
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
+(/Users/chloesutter/GitHub/QTM200Spring2020/problem_sets/PS1/Sutter_ProblemSet1
+.R
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 14.
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 14.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 14.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 14.
+ [1
+
+{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+/Users/chloesutter/GitHub/QTM200Spring2020/problem_sets/PS1/Sutter_ProblemSet1.
+R:89: Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89 #Since p < α,
+                    we conclude that the evidence supports the null hypothesis.
+
+? s
+OK, entering \scrollmode...
+
+/Users/chloesutter/GitHub/QTM200Spring2020/problem_sets/PS1/Sutter_ProblemSet1.
+R:89: Package inputenc Error: Invalid UTF-8 byte "B1.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89 #Since p < α,
+                    we conclude that the evidence supports the null hypothesis.
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+[2] [3]) (/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/02/27 1.8b listings language file
 )
 (/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstlang2.sty
@@ -1032,54 +1081,74 @@ File: lstlang2.sty 2019/02/27 1.8b listings language file
 (/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstlang3.sty
 File: lstlang3.sty 2019/02/27 1.8b listings language file
 )
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 84.
- (./PS1.R
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 40.
+(./Sutter_ProblemSet1.R) (./Sutter_ProblemSet1.R)
+./Sutter_PS1.tex:84: Undefined control sequence.
+l.84 \vsapce
+            {.5cm}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/base/omlcmr.fd
-File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 40.
-) [1
+(./PS1.R) [4] (./Sutter_ProblemSet1.R) (./Sutter_ProblemSet1.R)
+(./Sutter_ProblemSet1.R) (./Sutter_ProblemSet1.R) (./Sutter_ProblemSet1.R)
 
-{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./PS1.
-R) (./PS1.R)
-(./PS1.R) [2] [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 140.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 140.
- (./PS01.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 140.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 140.
-Package rerunfilecheck Info: File `PS01.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 140.
+./Sutter_PS1.tex:104: Package inputenc Error: Unicode character α (U+03B1)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.104 \noindent P value = 0.56. Since p < α
+                                            , we conclude that the evidence ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+(./Sutter_ProblemSet1.R) [5] (./Sutter_ProblemSet1.R) (./Sutter_ProblemSet1.R)
+(./Sutter_ProblemSet1.R) (./Sutter_ProblemSet1.R) (./Sutter_ProblemSet1.R)
+[6] (./Sutter_ProblemSet1.R) (./Sutter_ProblemSet1.R) [7]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 204.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 204.
+ (./Sutter_PS1.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 204.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 204.
+
+
+Package rerunfilecheck Warning: File `Sutter_PS1.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Sutter_PS1.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 204.
  ) 
 Here is how much of TeX's memory you used:
- 23280 strings out of 492616
- 402542 string characters out of 6129482
- 701900 words of memory out of 5000000
- 26749 multiletter control sequences out of 15000+600000
- 14736 words of font info for 61 fonts, out of 8000000 for 9000
+ 23517 strings out of 492616
+ 406452 string characters out of 6129482
+ 839039 words of memory out of 5000000
+ 26784 multiletter control sequences out of 15000+600000
+ 13227 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,6n,52p,3236b,2109s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,6n,52p,3242b,1888s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
-usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
-r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
-local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/lo
-cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local
-/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
-texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/t
-exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/te
-xlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on PS01.pdf (3 pages, 111904 bytes).
+/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
+sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
+/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/lo
+cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
+al/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/loca
+l/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local
+/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/t
+exlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on Sutter_PS1.pdf (7 pages, 135097 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
- 12 named destinations out of 1000 (max. 500000)
+ 303 PDF objects out of 1000 (max. 8388607)
+ 281 compressed objects within 3 object streams
+ 188 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

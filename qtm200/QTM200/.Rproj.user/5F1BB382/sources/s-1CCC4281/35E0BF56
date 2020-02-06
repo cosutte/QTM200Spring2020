@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1580081024350.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "35E0BF56",
+    "lastKnownWriteTime" : 1579794424,
+    "last_content_update" : 1580081114599,
+    "path" : "~/GitHub/QTM200Spring2020/problem_sets/PS1/PS1.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "36,0",
+        "scrollLine" : "25"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

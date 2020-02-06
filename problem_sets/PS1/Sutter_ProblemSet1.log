@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  29 JAN 2020 09:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  4 FEB 2020 15:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**PS01.tex
-(./PS01.tex
+**SUTTER_ProblemSet1.tex
+(./SUTTER_ProblemSet1.tex
 LaTeX2e <2018-12-01>
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
@@ -936,8 +936,8 @@ File: listings.cfg 2019/02/27 1.8b listings configuration
 Package: listings 2019/02/27 1.8b (Carsten Heinz)
 \c@hyp=\count163
 
-(./PS01.aux)
-\openout1 = `PS01.aux'.
+(./SUTTER_ProblemSet1.aux)
+\openout1 = `SUTTER_ProblemSet1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
 LaTeX Font Info:    ... okay on input line 67.
@@ -953,7 +953,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
 LaTeX Font Info:    ... okay on input line 67.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 67.
- (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 67.
@@ -1016,11 +1017,12 @@ LaTeX Info: Redefining \ref on input line 67.
 LaTeX Info: Redefining \pageref on input line 67.
 LaTeX Info: Redefining \nameref on input line 67.
 
-(./PS01.out) (./PS01.out)
+(./SUTTER_ProblemSet1.out) (./SUTTER_ProblemSet1.out)
 \@outlinefile=\write7
-\openout7 = `PS01.out'.
+\openout7 = `SUTTER_ProblemSet1.out'.
 
- ABD: EveryShipout initializing macros
+
+ABD: EveryShipout initializing macros
 \c@lstlisting=\count171
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -1033,53 +1035,136 @@ File: lstlang2.sty 2019/02/27 1.8b listings language file
 File: lstlang3.sty 2019/02/27 1.8b listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 84.
- (./PS1.R
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 40.
+nput line 79.
+
+(./Sutter_ProblemSet1.R
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 47.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 40.
-) [1
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 47.
+)
+(./Sutter_ProblemSet1.R) (./PS1.R) (./Sutter_ProblemSet1.R)
+(./Sutter_ProblemSet1.R) (./Sutter_ProblemSet1.R) (./Sutter_ProblemSet1.R)
+[1
 
-{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./PS1.
-R) (./PS1.R)
-(./PS1.R) [2] [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 140.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 140.
- (./PS01.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 140.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 140.
-Package rerunfilecheck Info: File `PS01.out' has not changed.
+{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./Sutter_ProblemSet1.R)
+
+./SUTTER_ProblemSet1.tex:102: Package inputenc Error: Unicode character α (U+0
+3B1)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.102 \noindent P value = 0.56. Since p < α
+                                            , we conclude that the evidence ...
+
+? s
+OK, entering \scrollmode...
+(./Sutter_ProblemSet1.R) (./Sutter_ProblemSet1.R)
+<Y.pdf, id=39, 614.295pt x 794.97pt>
+File: Y.pdf Graphic file (type pdf)
+<use Y.pdf>
+Package pdftex.def Info: Y.pdf  used on input line 137.
+(pdftex.def)             Requested size: 307.14674pt x 397.48402pt.
+ (./Sutter_ProblemSet1.R)
+<X1.pdf, id=40, 614.295pt x 794.97pt>
+File: X1.pdf Graphic file (type pdf)
+<use X1.pdf>
+Package pdftex.def Info: X1.pdf  used on input line 145.
+(pdftex.def)             Requested size: 307.14674pt x 397.48402pt.
+
+[2] [3 <./Y.pdf> <./X1.pdf>] (./Sutter_ProblemSet1.R)
+
+./SUTTER_ProblemSet1.tex:154: LaTeX Error: File `=' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.154 \includegraphics[width=50mm,scale=0.5]=
+                                             {X2.pdf}
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./SUTTER_ProblemSet1.tex:154: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.154 \includegraphics[width=50mm,scale=0.5]=
+                                             {X2.pdf}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+(./Sutter_ProblemSet1.R)
+<X3.pdf, id=78, 614.295pt x 794.97pt>
+File: X3.pdf Graphic file (type pdf)
+<use X3.pdf>
+Package pdftex.def Info: X3.pdf  used on input line 162.
+(pdftex.def)             Requested size: 307.14674pt x 397.48402pt.
+ (./Sutter_ProblemSet1.R)
+<XRegion.pdf, id=79, 614.295pt x 794.97pt>
+File: XRegion.pdf Graphic file (type pdf)
+<use XRegion.pdf>
+Package pdftex.def Info: XRegion.pdf  used on input line 172.
+(pdftex.def)             Requested size: 307.14674pt x 397.48402pt.
+ [4 <./X3.pdf>]
+(./Sutter_ProblemSet1.R)
+<YX1.pdf, id=96, 614.295pt x 794.97pt>
+File: YX1.pdf Graphic file (type pdf)
+<use YX1.pdf>
+Package pdftex.def Info: YX1.pdf  used on input line 181.
+(pdftex.def)             Requested size: 307.14674pt x 397.48402pt.
+ (./Sutter_ProblemSet1.R)
+<YX1Color.pdf, id=97, 614.295pt x 794.97pt>
+File: YX1Color.pdf Graphic file (type pdf)
+<use YX1Color.pdf>
+Package pdftex.def Info: YX1Color.pdf  used on input line 186.
+(pdftex.def)             Requested size: 307.14674pt x 397.48402pt.
+ [5 <./XRegion.pdf> <./YX1.pdf>] [6 <./YX1Color.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 191.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 191.
+ (./SUTTER_ProblemSet1.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 191.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 191.
+Package rerunfilecheck Info: File `SUTTER_ProblemSet1.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 140.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 191.
  ) 
 Here is how much of TeX's memory you used:
- 23280 strings out of 492616
- 402542 string characters out of 6129482
- 701900 words of memory out of 5000000
- 26749 multiletter control sequences out of 15000+600000
- 14736 words of font info for 61 fonts, out of 8000000 for 9000
+ 23405 strings out of 492616
+ 404528 string characters out of 6129482
+ 754584 words of memory out of 5000000
+ 26790 multiletter control sequences out of 15000+600000
+ 13227 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,6n,52p,3236b,2109s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,7n,52p,3250b,2109s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
-usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
-r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
-local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/lo
-cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local
-/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
-texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/t
-exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/te
-xlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on PS01.pdf (3 pages, 111904 bytes).
+/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
+sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
+/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/lo
+cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
+al/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/loca
+l/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local
+/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/t
+exlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on SUTTER_ProblemSet1.pdf (6 pages, 143178 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
- 12 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 175 PDF objects out of 1000 (max. 8388607)
+ 143 compressed objects within 2 object streams
+ 51 named destinations out of 1000 (max. 500000)
+ 43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
