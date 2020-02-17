@@ -1,0 +1,236 @@
+\documentclass[12pt,letterpaper]{article}
+\usepackage{graphicx,textcomp}
+\usepackage{natbib}
+\usepackage{setspace}
+\usepackage{fullpage}
+\usepackage{color}
+\usepackage[reqno]{amsmath}
+\usepackage{amsthm}
+\usepackage{fancyvrb}
+\usepackage{amssymb,enumerate}
+\usepackage[all]{xy}
+\usepackage{endnotes}
+\usepackage{lscape}
+\newtheorem{com}{Comment}
+\usepackage{float}
+\usepackage{hyperref}
+\newtheorem{lem} {Lemma}
+\newtheorem{prop}{Proposition}
+\newtheorem{thm}{Theorem}
+\newtheorem{defn}{Definition}
+\newtheorem{cor}{Corollary}
+\newtheorem{obs}{Observation}
+\usepackage[compact]{titlesec}
+\usepackage{dcolumn}
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+\usepackage{multirow}
+\usepackage{subcaption}
+\usepackage{xcolor}
+\newcolumntype{.}{D{.}{.}{-1}}
+\newcolumntype{d}[1]{D{.}{.}{#1}}
+\definecolor{light-gray}{gray}{0.65}
+\usepackage{url}
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+	backgroundcolor=\color{backcolour},   
+	commentstyle=\color{codegreen},
+	keywordstyle=\color{magenta},
+	numberstyle=\tiny\color{codegray},
+	stringstyle=\color{codepurple},
+	basicstyle=\footnotesize,
+	breakatwhitespace=false,         
+	breaklines=true,                 
+	captionpos=b,                    
+	keepspaces=true,                 
+	numbers=left,                    
+	numbersep=5pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2
+}
+\lstset{style=mystyle}
+\newcommand{\Sref}[1]{Section~\ref{#1}}
+\newtheorem{hyp}{Hypothesis}
+
+\title{Chloe Sutter / Problem Set 3}
+\date{Due: February 17, 2020}
+\author{QTM 200: Applied Regression Analysis}
+
+\begin{document}
+
+\maketitle	
+\noindent In this problem set, you will run several regressions and create an add variable plot (see the lecture slides) in \texttt{R} using the \texttt{incumbents\_subset.csv} dataset. Include all of your code.
+
+	\vspace{.5cm}
+	\section*{Question 1 (20 points)}
+	\vspace{.25cm}
+	\noindent We are interested in knowing how the difference in campaign spending between incumbent and challenger affects the incumbent's vote share. 
+	\begin{enumerate}
+		\item Run a regression where the outcome variable is \texttt{voteshare} and the explanatory variable is \texttt{difflog}.
+		\lstinputlisting[language=R, firstline=50, lastline=60]{PS3_Sutter.R}  
+		\vspace{.25cm}
+		
+		\item Make a scatterplot of the two variables and add the regression line. 
+		\lstinputlisting[language=R, firstline=63, lastline=66]{PS3_Sutter.R}  
+		\vspace{.25cm}
+		
+		\newpage
+		
+		\begin{figure}[h!]\centering
+		\caption{\footnotesize }
+		\label{fig:plot_1}
+		\includegraphics[width=.85\textwidth]{Regress1.pdf}
+		\end{figure}
+		\vspace{.25cm}
+		
+		\item Save the residuals of the model in a separate object.	
+		\lstinputlisting[language=R, firstline=72, lastline=73]{PS3_Sutter.R}  
+		\vspace{.25cm}
+		
+		\item Write the prediction equation.
+		\vspace{.15cm}
+		
+		Y = $\alpha$ + $\beta$ X
+		
+		\vspace{.1cm}
+		
+		Y = .57 + .04X where Y is a vector of observed outcomes for voteshare and and X is a vector of difflog. 
+		
+	\end{enumerate}
+	
+
+	
+	\section*{Question 2 (20 points)}
+\noindent We are interested in knowing how the difference between incumbent and challenger's spending and the vote share of the presidential candidate of the incumbent's party are related.	\vspace{.25cm}
+	\begin{enumerate}
+		\item Run a regression where the outcome variable is \texttt{presvote} and the explanatory variable is \texttt{difflog}.
+		\lstinputlisting[language=R, firstline=89, lastline=94]{PS3_Sutter.R}  
+		\vspace{.25cm}
+
+		\item Make a scatterplot of the two variables and add the regression line. 	
+		\lstinputlisting[language=R, firstline=97, lastline=99]{PS3_Sutter.R}  
+		
+		\begin{figure}[h!]\centering
+		\caption{\footnotesize }
+		\label{fig:plot_1}
+		\includegraphics[width=.85\textwidth]{regress2.pdf}
+		\end{figure}
+		\vspace{.25cm}
+		
+		\newpage
+		
+		\item Save the residuals of the model in a separate object.
+		\lstinputlisting[language=R, firstline=105, lastline=106]{PS3_Sutter.R}  
+		
+		\item Write the prediction equation.
+		
+		Y = $\alpha$ + $\beta$X
+		
+		\vspace{.15cm}
+	
+		Y = .507 + .023X where Y is a vector of the observed outcomes for presvote and X is a vector of difflog.
+  
+	\end{enumerate}
+
+	
+\section*{Question 3 (20 points)}
+
+\noindent We are interested in knowing how the vote share of the presidential candidate of the incumbent's party is associated with the incumbent's electoral success.
+	\vspace{.25cm}
+	\begin{enumerate}
+		\item Run a regression where the outcome variable is \texttt{voteshare} and the explanatory variable is \texttt{presvote}.
+		\lstinputlisting[language=R, firstline=122, lastline=126]{PS3_Sutter.R} 
+		\vspace{.25cm} 
+			
+		\item Make a scatterplot of the two variables and add the regression line. 
+		\lstinputlisting[language=R, firstline=129, lastline=131]{PS3_Sutter.R}  
+		
+		\begin{figure}[h!]\centering
+		\caption{\footnotesize }
+		\label{fig:plot_1}
+		\includegraphics[width=.85\textwidth]{regress3.pdf}
+		\end{figure}
+		\vspace{.25cm}
+		
+		\newpage
+
+		\item Write the prediction equation.
+		
+		Y = $\alpha$ + $\beta$X 
+		
+		\vspace{.1cm}
+		
+		Y = .44 + .38X where Y is a vector of observed outcomes for voteshare and X is a vector of presvote.
+		
+	\end{enumerate}
+	
+
+\section*{Question 4 (20 points)}
+\noindent The residuals from part (a) tell us how much of the variation in \texttt{voteshare} is $not$ explained by the difference in spending between incumbent and challenger. The residuals in part (b) tell us how much of the variation in \texttt{presvote} is $not$ explained by the difference in spending between incumbent and challenger in the district.
+	\begin{enumerate}
+		\item Run a regression where the outcome variable is the residuals from Question 1 and the explanatory variable is the residuals from Question 2.
+		\lstinputlisting[language=R, firstline=161, lastline=171]{PS3_Sutter.R} 
+		\vspace{.25cm} 
+			
+		\item Make a scatterplot of the two residuals and add the regression line. 
+		\lstinputlisting[language=R, firstline=174, lastline=176]{PS3_Sutter.R} 
+		
+		\begin{figure}[h!]\centering
+		\caption{\footnotesize }
+		\label{fig:plot_1}
+		\includegraphics[width=.85\textwidth]{regress4.pdf}
+		\end{figure}
+		\vspace{.25cm}
+		
+		\newpage
+		
+		\item Write the prediction equation.
+		
+		Y = $\alpha$ + $\beta$X 
+		
+		\vspace{.1cm}
+		
+		Y = -0.0000000000000000048 + 0.25X
+		Where Y = residuals describing how much of the variation in VOTESHARE is not explained by the difference in spending between incumbent and challenger
+		and where X = residuals describing how much of the variation in PRESVOTE is not explained by the difference in spending between incumbent and challenger in the district.
+	\end{enumerate}
+	
+	\vspace{1cm}
+
+\section*{Question 5 (20 points)}
+\noindent What if the incumbent's vote share is affected by both the president's popularity and the difference in spending between incumbent and challenger? 
+	\begin{enumerate}
+		\item Run a regression where the outcome variable is the incumbent's \texttt{voteshare} and the explanatory variables are \texttt{difflog} and \texttt{presvote}.
+		Find regression by-hand.
+		\lstinputlisting[language=R, firstline=193, lastline=221]{PS3_Sutter.R} 
+		
+		Check regression in r
+		\lstinputlisting[language=R, firstline=223, lastline=230]{PS3_Sutter.R} 
+		
+		\item Write the prediction equation.
+		
+		\vspace{.1cm}
+		
+		$\mu$y = $\beta$0 + $\beta$1X1 + $\beta$2X2
+		
+		\vspace{.1cm}
+		
+		$\mu$y = 0.449 + 0.035X1 + 0.256X2 where X1 represents difflog and X2 represents presvote.
+		
+		\item What is it in this output that is identical to the output in Question 4? Why do you think this is the case?
+		Reflect on your finding. Don't write anything. Just think about it.
+	\end{enumerate}
+
+
+
+
+\end{document}
